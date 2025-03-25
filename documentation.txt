@@ -1,0 +1,14 @@
+Author: Julio Cesar Angulo Tejeda
+Version: 0.1
+
+
+TODO:
+1.- Create the documentation of code/functions - Done
+2.- Create conditional 'if' in cases of main.py - Done
+3.- Create an instance to Functional test scenarios - Done
+4.- Create Functional test scenarios - Done
+5.- Create Error handling to main.py - Done
+6.- Create the writing of the test scenario in a txt file - Done
+7.- Test all methods and functions - Done
+8.- Define initial methods to Class, e.g. get user info, etc etc - Pending(Define the idea)
+9.- Create function-based test to main functions -> Done

@@ -1,0 +1,56 @@
+Test Cases Service 22
+"Verify {IPC} responds positive to DID {1000} and with data length of {0x04} under below conditions:
+     Physical Address {Y}
+     Default Session {Y}
+     Security Level {N} 
+     Preconditions:
+     - Turn On ECU
+     - Set Default Session
+     Steps:
+     1.- Send by {1096DAF1} diagnostic request: {22} {1000}
+     Expected:
+     1.- ECU responds: {0x04} {62 10 00 XX}"
+"Verify {IPC} responds positive to DID {1001} and with data length of {0x04} under below conditions:
+     Physical Address {Y}
+     Default Session {Y}
+     Security Level {N} 
+     Preconditions:
+     - Turn On ECU
+     - Set Default Session
+     Steps:
+     1.- Send by {1096DAF1} diagnostic request: {22} {1001}
+     Expected:
+     1.- ECU responds: {0x04} {62 10 01 XX}"
+"Verify {IPC} responds positive to DID {1003} and with data length of {0x04} under below conditions:
+     Physical Address {Y}
+     Default Session {Y}
+     Security Level {N} 
+     Preconditions:
+     - Turn On ECU
+     - Set Default Session
+     Steps:
+     1.- Send by {1096DAF1} diagnostic request: {22} {1003}
+     Expected:
+     1.- ECU responds: {0x04} {62 10 03 XX}"
+"Verify {IPC} responds positive to DID {1010} and with data length of {0x06} under below conditions:
+     Physical Address {Y}
+     Default Session {Y}
+     Security Level {N} 
+     Preconditions:
+     - Turn On ECU
+     - Set Default Session
+     Steps:
+     1.- Send by {1096DAF1} diagnostic request: {22} {1010}
+     Expected:
+     1.- ECU responds: {0x06} {62 10 10 XX XX XX}"
+"Verify {IPC} responds positive to DID {101A} and with data length of {0x07} under below conditions:
+     Physical Address {Y}
+     Default Session {Y}
+     Security Level {N} 
+     Preconditions:
+     - Turn On ECU
+     - Set Default Session
+     Steps:
+     1.- Send by {1096DAF1} diagnostic request: {22} {101A}
+     Expected:
+     1.- ECU responds: {0x07} {62 10 1A XX XX XX XX}"

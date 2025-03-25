@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report.html</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report.html</h1>
+    <p>Report generated on 24-Mar-2025 at 15:24:14 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">6 tests took 9 ms.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">6 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" disabled/>
+            <span class="passed">0 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.1&#34;, &#34;Platform&#34;: &#34;macOS-15.3.2-arm64-arm-64bit-Mach-O&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.5&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}, &#34;JAVA_HOME&#34;: &#34;/opt/homebrew/opt/openjdk&#34;}, &#34;tests&#34;: {&#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-1-Valid Test Cases were created!]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-1-Valid Test Cases were created!]&#34;, &#34;duration&#34;: &#34;4 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-1-Valid Test Cases were created!]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;4 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 1\nexpected = &amp;#x27;Valid Test Cases were created!&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Basic Reading&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Diagnostic Session&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Incorrect Length&amp;#x27;], tgen.expected_positive_ctc)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_1(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n        result = c_tc.create_service22_tc(ecu, can_id , test_template)\n&amp;gt;       assert result == expected\nE       AssertionError: assert &amp;#x27;Something we...N ID SELECTED&amp;#x27; == &amp;#x27;Valid Test C...were created!&amp;#x27;\nE         \nE         - Valid Test Cases were created!\nE         + Something went wrong, NO CAN ID SELECTED\n\ntests/test_create_tc.py:17: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nThe type of var is: &amp;lt;class &amp;#x27;int&amp;#x27;&amp;gt;\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:155 Something went wrong, NO CAN ID SELECTED\n\n&#34;}], &#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-2-Valid Test Cases were created!]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-2-Valid Test Cases were created!]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-2-Valid Test Cases were created!]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 2\nexpected = &amp;#x27;Valid Test Cases were created!&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Basic Reading&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Diagnostic Session&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Incorrect Length&amp;#x27;], tgen.expected_positive_ctc)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_1(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n        result = c_tc.create_service22_tc(ecu, can_id , test_template)\n&amp;gt;       assert result == expected\nE       AssertionError: assert &amp;#x27;Something we...N ID SELECTED&amp;#x27; == &amp;#x27;Valid Test C...were created!&amp;#x27;\nE         \nE         - Valid Test Cases were created!\nE         + Something went wrong, NO CAN ID SELECTED\n\ntests/test_create_tc.py:17: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nThe type of var is: &amp;lt;class &amp;#x27;int&amp;#x27;&amp;gt;\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:155 Something went wrong, NO CAN ID SELECTED\n\n&#34;}], &#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-3-Valid Test Cases were created!]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-3-Valid Test Cases were created!]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_1[IPC-1096DAF1-3-Valid Test Cases were created!]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 3\nexpected = &amp;#x27;Valid Test Cases were created!&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Basic Reading&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Diagnostic Session&amp;#x27;], tgen.expected_positive_ctc),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, guds.TEST_SCENARIOS[&amp;#x27;Incorrect Length&amp;#x27;], tgen.expected_positive_ctc)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_1(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n        result = c_tc.create_service22_tc(ecu, can_id , test_template)\n&amp;gt;       assert result == expected\nE       AssertionError: assert &amp;#x27;Something we...N ID SELECTED&amp;#x27; == &amp;#x27;Valid Test C...were created!&amp;#x27;\nE         \nE         - Valid Test Cases were created!\nE         + Something went wrong, NO CAN ID SELECTED\n\ntests/test_create_tc.py:17: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nThe type of var is: &amp;lt;class &amp;#x27;int&amp;#x27;&amp;gt;\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:155 Something went wrong, NO CAN ID SELECTED\n\n&#34;}], &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-0-Error. No correct selection]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-0-Error. No correct selection]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-0-Error. No correct selection]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 0\nexpected = &amp;#x27;Error. No correct selection&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 0, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 4, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 5, &amp;quot;Error. No correct selection&amp;quot;)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_2(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n        result = c_tc.create_service22_tc(ecu, can_id , test_template)\n&amp;gt;       assert result == expected\nE       AssertionError: assert &amp;#x27;Something we...N ID SELECTED&amp;#x27; == &amp;#x27;Error. No correct selection&amp;#x27;\nE         \nE         - Error. No correct selection\nE         + Something went wrong, NO CAN ID SELECTED\n\ntests/test_create_tc.py:31: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\nThe type of var is: &amp;lt;class &amp;#x27;int&amp;#x27;&amp;gt;\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:155 Something went wrong, NO CAN ID SELECTED\n\n&#34;}], &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-4-Error. No correct selection]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-4-Error. No correct selection]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-4-Error. No correct selection]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu_name = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, var_test_scenario = 4\n\n    def create_service22_tc(ecu_name: str = &amp;#x27;&amp;#x27;, can_id: str = &amp;#x27;&amp;#x27;, var_test_scenario: int = None) -&amp;gt; str:\n        &amp;quot;&amp;quot;&amp;quot;\n        Creates test cases for UDS service 22 based on specified ECU and CAN ID.\n    \n        Inputs:\n            ecu_name (str): The ECU name.\n            can_id (str): The CAN ID (physical or functional).\n            var_test_scenario (int): The test scenario type (1: Basic Reading, 2: Diagnostic Session, 3: Incorrect Length).\n    \n        Returns:\n            list: A list of generated test cases.\n        &amp;quot;&amp;quot;&amp;quot;\n        try:\n            # Read DID databases\n            service22_data_base_generals, service22_data_base_specific = create_did_supported_db(\n                guds.csv_generals_path, guds.csv_specific_path\n            )\n    \n            logging.info(f&amp;#x27;DIDs read: {service22_data_base_generals}&amp;#x27;)\n    \n            # If test scenario is not provided, ask the user\n            if var_test_scenario is None:\n                var_test_scenario = int(input(&amp;quot;\\nSelect: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length\\n&amp;quot;))\n    \n            if not isinstance(ecu_name, str) or not isinstance(can_id, str) or not isinstance(var_test_scenario, int):\n                logging.warning(f&amp;#x27;Warning, ecu_name type is {type(ecu_name)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, can_id type is {type(can_id)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, the variable {var_test_scenario} is type {type(var_test_scenario)}&amp;#x27;)\n                raise TypeError\n            elif not var_test_scenario &amp;lt;= 3:\n&amp;gt;               raise ValueError\nE               ValueError\n\napps/create_tc.py:149: ValueError\n\nDuring handling of the above exception, another exception occurred:\n\necu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 4\nexpected = &amp;#x27;Error. No correct selection&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 0, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 4, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 5, &amp;quot;Error. No correct selection&amp;quot;)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_2(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n&amp;gt;       result = c_tc.create_service22_tc(ecu, can_id , test_template)\n\ntests/test_create_tc.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\necu_name = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, var_test_scenario = 4\n\n    def create_service22_tc(ecu_name: str = &amp;#x27;&amp;#x27;, can_id: str = &amp;#x27;&amp;#x27;, var_test_scenario: int = None) -&amp;gt; str:\n        &amp;quot;&amp;quot;&amp;quot;\n        Creates test cases for UDS service 22 based on specified ECU and CAN ID.\n    \n        Inputs:\n            ecu_name (str): The ECU name.\n            can_id (str): The CAN ID (physical or functional).\n            var_test_scenario (int): The test scenario type (1: Basic Reading, 2: Diagnostic Session, 3: Incorrect Length).\n    \n        Returns:\n            list: A list of generated test cases.\n        &amp;quot;&amp;quot;&amp;quot;\n        try:\n            # Read DID databases\n            service22_data_base_generals, service22_data_base_specific = create_did_supported_db(\n                guds.csv_generals_path, guds.csv_specific_path\n            )\n    \n            logging.info(f&amp;#x27;DIDs read: {service22_data_base_generals}&amp;#x27;)\n    \n            # If test scenario is not provided, ask the user\n            if var_test_scenario is None:\n                var_test_scenario = int(input(&amp;quot;\\nSelect: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length\\n&amp;quot;))\n    \n            if not isinstance(ecu_name, str) or not isinstance(can_id, str) or not isinstance(var_test_scenario, int):\n                logging.warning(f&amp;#x27;Warning, ecu_name type is {type(ecu_name)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, can_id type is {type(can_id)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, the variable {var_test_scenario} is type {type(var_test_scenario)}&amp;#x27;)\n                raise TypeError\n            elif not var_test_scenario &amp;lt;= 3:\n                raise ValueError\n    \n            else:\n                print(f&amp;#x27;The type of var is: {type(var_test_scenario)}&amp;#x27;)\n                can_id_type = &amp;#x27;Physical&amp;#x27; if can_id == &amp;#x27;physical&amp;#x27; else &amp;#x27;Functional&amp;#x27; if can_id == &amp;#x27;functional&amp;#x27; else None # Define CAN ID type\n                if not can_id_type:\n                    logging.error(&amp;quot;Something went wrong, NO CAN ID SELECTED&amp;quot;)\n                    return &amp;#x27;Something went wrong, NO CAN ID SELECTED&amp;#x27;  # return []\n    \n            #test_cases = []\n            test_templates = {\n                &amp;#x27;Physical&amp;#x27;: {\n                    1: guds.basic_positive_reading_template,\n                    2: guds.diag_sessions_positive_reading_template,\n                    3: guds.incorrect_length_template\n                },\n                &amp;#x27;Functional&amp;#x27;: {\n                    1: guds.fa_positive_reading_template,\n                    2: guds.fa_diag_sessions_positive_reading_template,\n                    3: guds.fa_incorrect_length_template\n                }\n            }\n    \n            # Iterate over the DIDs\n            for inc, values in enumerate(service22_data_base_generals.values()):\n                # Create an instance of Service22 class\n                s22_testcase = Service22(ecu_name, can_id, guds.SERVICES_SUPPORTED[&amp;#x27;Service22&amp;#x27;], values)\n                db_s22_did = s22_testcase.create_did_db(guds.csv_generals_path, guds.csv_specific_path, inc)\n    \n                logging.info(f&amp;quot;DID database: {db_s22_did}&amp;quot;)\n    \n                # Check if the selected scenario is valid\n                template = test_templates[can_id_type].get(var_test_scenario)\n                if not template:\n                    logging.error(f&amp;quot;Error. No correct selection {var_test_scenario}&amp;quot;)\n                    return &amp;quot;Error. No correct selection&amp;quot;\n    \n                # Verify the conditions before creating a test case\n                if db_s22_did.get(f&amp;#x27;var_ID_Supported_{can_id_type}&amp;#x27;) == &amp;#x27;Y&amp;#x27; and db_s22_did.get(&amp;#x27;var_ID_Supported_Default&amp;#x27;) == &amp;#x27;Y&amp;#x27;:\n                    test_case = s22_testcase.create_test_scenario(template, db_s22_did)\n                    write_to_csv(guds.csv_test_cases_result_path, test_case, inc + 1, 0)\n                    #test_cases.append(test_case)\n                    logging.info(f&amp;quot;Created test case: {test_case}&amp;quot;)\n                else:\n                    logging.warning(f&amp;#x27;Test case scenario does not apply for this DID {db_s22_did}&amp;#x27;)\n                    # TODO: Check if we could create a error here\n            return &amp;#x27;Valid Test Cases were created!&amp;#x27; # if test_cases else [&amp;quot;No valid test cases were created&amp;quot;]\n    \n        except ValueError:\n            logging.error(&amp;quot;Invalid input! Please enter a number between 1 and 3.&amp;quot;)\n&amp;gt;           raise ValueError(&amp;#x27;Invalid input, Select: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length!\\n&amp;#x27;)\nE           ValueError: Invalid input, Select: \nE           1. Basic Reading\nE           2. Diagnostic Session\nE           3. Incorrect Length!\n\napps/create_tc.py:199: ValueError\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:198 Invalid input! Please enter a number between 1 and 3.\n\n&#34;}], &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-5-Error. No correct selection]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-5-Error. No correct selection]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_create_tc.py::test_create_service22_tc_2[IPC-1096DAF1-5-Error. No correct selection]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;ecu_name = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, var_test_scenario = 5\n\n    def create_service22_tc(ecu_name: str = &amp;#x27;&amp;#x27;, can_id: str = &amp;#x27;&amp;#x27;, var_test_scenario: int = None) -&amp;gt; str:\n        &amp;quot;&amp;quot;&amp;quot;\n        Creates test cases for UDS service 22 based on specified ECU and CAN ID.\n    \n        Inputs:\n            ecu_name (str): The ECU name.\n            can_id (str): The CAN ID (physical or functional).\n            var_test_scenario (int): The test scenario type (1: Basic Reading, 2: Diagnostic Session, 3: Incorrect Length).\n    \n        Returns:\n            list: A list of generated test cases.\n        &amp;quot;&amp;quot;&amp;quot;\n        try:\n            # Read DID databases\n            service22_data_base_generals, service22_data_base_specific = create_did_supported_db(\n                guds.csv_generals_path, guds.csv_specific_path\n            )\n    \n            logging.info(f&amp;#x27;DIDs read: {service22_data_base_generals}&amp;#x27;)\n    \n            # If test scenario is not provided, ask the user\n            if var_test_scenario is None:\n                var_test_scenario = int(input(&amp;quot;\\nSelect: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length\\n&amp;quot;))\n    \n            if not isinstance(ecu_name, str) or not isinstance(can_id, str) or not isinstance(var_test_scenario, int):\n                logging.warning(f&amp;#x27;Warning, ecu_name type is {type(ecu_name)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, can_id type is {type(can_id)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, the variable {var_test_scenario} is type {type(var_test_scenario)}&amp;#x27;)\n                raise TypeError\n            elif not var_test_scenario &amp;lt;= 3:\n&amp;gt;               raise ValueError\nE               ValueError\n\napps/create_tc.py:149: ValueError\n\nDuring handling of the above exception, another exception occurred:\n\necu = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, test_template = 5\nexpected = &amp;#x27;Error. No correct selection&amp;#x27;\n\n    @pytest.mark.parametrize(&amp;#x27;ecu, can_id, test_template, expected&amp;#x27;, [\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 0, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 4, &amp;quot;Error. No correct selection&amp;quot;),\n        (guds.ECUS[&amp;#x27;STELLANTIS_IPC&amp;#x27;], guds.CAN_CLASSIC_PHYSICAL_ID, 5, &amp;quot;Error. No correct selection&amp;quot;)\n    ])\n    @pytest.mark.prio1\n    def test_create_service22_tc_2(ecu, can_id, test_template, expected):\n        &amp;quot;&amp;quot;&amp;quot;\n        Test Prio1\n        &amp;quot;&amp;quot;&amp;quot;\n&amp;gt;       result = c_tc.create_service22_tc(ecu, can_id , test_template)\n\ntests/test_create_tc.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\necu_name = &amp;#x27;IPC&amp;#x27;, can_id = &amp;#x27;1096DAF1&amp;#x27;, var_test_scenario = 5\n\n    def create_service22_tc(ecu_name: str = &amp;#x27;&amp;#x27;, can_id: str = &amp;#x27;&amp;#x27;, var_test_scenario: int = None) -&amp;gt; str:\n        &amp;quot;&amp;quot;&amp;quot;\n        Creates test cases for UDS service 22 based on specified ECU and CAN ID.\n    \n        Inputs:\n            ecu_name (str): The ECU name.\n            can_id (str): The CAN ID (physical or functional).\n            var_test_scenario (int): The test scenario type (1: Basic Reading, 2: Diagnostic Session, 3: Incorrect Length).\n    \n        Returns:\n            list: A list of generated test cases.\n        &amp;quot;&amp;quot;&amp;quot;\n        try:\n            # Read DID databases\n            service22_data_base_generals, service22_data_base_specific = create_did_supported_db(\n                guds.csv_generals_path, guds.csv_specific_path\n            )\n    \n            logging.info(f&amp;#x27;DIDs read: {service22_data_base_generals}&amp;#x27;)\n    \n            # If test scenario is not provided, ask the user\n            if var_test_scenario is None:\n                var_test_scenario = int(input(&amp;quot;\\nSelect: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length\\n&amp;quot;))\n    \n            if not isinstance(ecu_name, str) or not isinstance(can_id, str) or not isinstance(var_test_scenario, int):\n                logging.warning(f&amp;#x27;Warning, ecu_name type is {type(ecu_name)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, can_id type is {type(can_id)}&amp;#x27;)\n                logging.warning(f&amp;#x27;Warning, the variable {var_test_scenario} is type {type(var_test_scenario)}&amp;#x27;)\n                raise TypeError\n            elif not var_test_scenario &amp;lt;= 3:\n                raise ValueError\n    \n            else:\n                print(f&amp;#x27;The type of var is: {type(var_test_scenario)}&amp;#x27;)\n                can_id_type = &amp;#x27;Physical&amp;#x27; if can_id == &amp;#x27;physical&amp;#x27; else &amp;#x27;Functional&amp;#x27; if can_id == &amp;#x27;functional&amp;#x27; else None # Define CAN ID type\n                if not can_id_type:\n                    logging.error(&amp;quot;Something went wrong, NO CAN ID SELECTED&amp;quot;)\n                    return &amp;#x27;Something went wrong, NO CAN ID SELECTED&amp;#x27;  # return []\n    \n            #test_cases = []\n            test_templates = {\n                &amp;#x27;Physical&amp;#x27;: {\n                    1: guds.basic_positive_reading_template,\n                    2: guds.diag_sessions_positive_reading_template,\n                    3: guds.incorrect_length_template\n                },\n                &amp;#x27;Functional&amp;#x27;: {\n                    1: guds.fa_positive_reading_template,\n                    2: guds.fa_diag_sessions_positive_reading_template,\n                    3: guds.fa_incorrect_length_template\n                }\n            }\n    \n            # Iterate over the DIDs\n            for inc, values in enumerate(service22_data_base_generals.values()):\n                # Create an instance of Service22 class\n                s22_testcase = Service22(ecu_name, can_id, guds.SERVICES_SUPPORTED[&amp;#x27;Service22&amp;#x27;], values)\n                db_s22_did = s22_testcase.create_did_db(guds.csv_generals_path, guds.csv_specific_path, inc)\n    \n                logging.info(f&amp;quot;DID database: {db_s22_did}&amp;quot;)\n    \n                # Check if the selected scenario is valid\n                template = test_templates[can_id_type].get(var_test_scenario)\n                if not template:\n                    logging.error(f&amp;quot;Error. No correct selection {var_test_scenario}&amp;quot;)\n                    return &amp;quot;Error. No correct selection&amp;quot;\n    \n                # Verify the conditions before creating a test case\n                if db_s22_did.get(f&amp;#x27;var_ID_Supported_{can_id_type}&amp;#x27;) == &amp;#x27;Y&amp;#x27; and db_s22_did.get(&amp;#x27;var_ID_Supported_Default&amp;#x27;) == &amp;#x27;Y&amp;#x27;:\n                    test_case = s22_testcase.create_test_scenario(template, db_s22_did)\n                    write_to_csv(guds.csv_test_cases_result_path, test_case, inc + 1, 0)\n                    #test_cases.append(test_case)\n                    logging.info(f&amp;quot;Created test case: {test_case}&amp;quot;)\n                else:\n                    logging.warning(f&amp;#x27;Test case scenario does not apply for this DID {db_s22_did}&amp;#x27;)\n                    # TODO: Check if we could create a error here\n            return &amp;#x27;Valid Test Cases were created!&amp;#x27; # if test_cases else [&amp;quot;No valid test cases were created&amp;quot;]\n    \n        except ValueError:\n            logging.error(&amp;quot;Invalid input! Please enter a number between 1 and 3.&amp;quot;)\n&amp;gt;           raise ValueError(&amp;#x27;Invalid input, Select: \\n1. Basic Reading\\n2. Diagnostic Session\\n3. Incorrect Length!\\n&amp;#x27;)\nE           ValueError: Invalid input, Select: \nE           1. Basic Reading\nE           2. Diagnostic Session\nE           3. Incorrect Length!\n\napps/create_tc.py:199: ValueError\n\n------------------------------ Captured log call -------------------------------\nERROR    root:create_tc.py:198 Invalid input! Please enter a number between 1 and 3.\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>

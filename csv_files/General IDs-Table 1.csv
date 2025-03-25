@@ -1,0 +1,6 @@
+DID,Payload length (bytes),Service 22 Req,Service 22 Response,Service Response Length (bytes),Payload ID,NRC Supported
+1000,1,03 22 10 00,62 10 00 XX,0x04,00,"7F, 22, 31"
+1001,1,03 22 10 01,62 10 01 XX,0x04,00,"7F, 22, 31"
+1003,1,03 22 10 01,62 10 03 XX,0x04,00,"7F, 22, 31"
+1010,6,03 22 10 10,62 10 10 XX XX XX,0x06,A1,"7F, 22, 31"
+101A,7,03 22 10 1A,62 10 1A XX XX XX XX,0x07,A1,"7F, 22, 31"

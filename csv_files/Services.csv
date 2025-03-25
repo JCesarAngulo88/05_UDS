@@ -1,0 +1,6 @@
+DID,Default (Def),Extended (Ext),BootLoader (BL),Sec Level (SA),Physical Add,Functional Add
+1000,Y,Y,Y,N,Y,Y
+1001,Y,Y,Y,N,Y,Y
+1003,Y,Y,N,N,Y,Y
+1010,Y,Y,N,N,Y,Y
+101A,Y,Y,N,N,Y,Y
